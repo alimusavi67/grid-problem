@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Interview Problem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  </head>
+  <body class="container">
+  
+     <div class="card container">
+       <span>config:</span>
+       <div class="config-card">
+          <form>
+              <div class="form-group">
+                <label for="formControlRange">please choose table size(n*n)</label>
+                <input type="range" min="2" max="30" class="form-control-range" id="myRange">
+                <p>Value: <span id="demo"></span></p>
+              </div>
+          </form>
+          <div >
+                <p>change Color of fill cells</p>
+                <p>choose cells color:</p>
+                <input class="jscolor" onchange="update(this.jscolor)" value="#CC0619">                
+          </div>
+       </div>
+     </div>
+     <div id="tables"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="jscolor.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    padding: 20px 0;
+}
+.config-card {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+table {
+    max-width: 900px !important;
+    height: 500px;
+    margin: 0 auto;
+
+}
+.filled-cell {
+    background-color: red;
+}
+td {
+    max-width: 80px !important;
+    max-height: 80px !important;
+    text-align: center;
+    color: aliceblue;
+}
+.card {
+    padding: 10px;
+    margin-bottom: 10px;
+}
